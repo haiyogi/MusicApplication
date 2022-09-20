@@ -31,32 +31,32 @@
         android:orientation="horizontal"
         android:padding="10dp">
 
-        <Button
+        <ImageView
             android:id="@+id/play"
             android:layout_width="wrap_content"
             android:layout_height="92dp"
             android:layout_weight="1"
+            android:background="@drawable/ic_play"
             android:onClick="musicplay"
-            android:text="PLAY"
-            tools:ignore="ButtonStyle" />
+             />
 
-        <Button
+        <ImageView
             android:id="@+id/pause"
             android:layout_width="wrap_content"
             android:layout_height="92dp"
             android:layout_weight="1"
+            android:background="@drawable/ic_pause"
             android:onClick="musicpause"
-            android:text="PAUSE"
-            tools:ignore="ButtonStyle" />
+             />
 
-        <Button
+        <ImageView
             android:id="@+id/stop"
             android:layout_width="wrap_content"
             android:layout_height="92dp"
             android:layout_weight="1"
+            android:background="@drawable/ic_stop"
             android:onClick="musicstop"
-            android:text="STOP"
-            tools:ignore="ButtonStyle" />
+             />
     </LinearLayout>
 
 </LinearLayout>
