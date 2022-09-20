@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Adding the music file to our
         // newly created object music
-        music = MediaPlayer.create(this, R.raw.sound);
+        music = MediaPlayer.create(this, R.raw.pirates);
 
         seekBar.setMax(music.getDuration());
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     public void musicstop(View v)
     {
         music.stop();
-        music = MediaPlayer.create(this, R.raw.sound);
+        music = MediaPlayer.create(this, R.raw.pirates);
     }
 
 }

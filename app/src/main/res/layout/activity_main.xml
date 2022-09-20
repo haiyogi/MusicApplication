@@ -37,7 +37,8 @@
             android:layout_height="92dp"
             android:layout_weight="1"
             android:onClick="musicplay"
-            android:text="PLAY" />
+            android:text="PLAY"
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/pause"
@@ -45,7 +46,8 @@
             android:layout_height="92dp"
             android:layout_weight="1"
             android:onClick="musicpause"
-            android:text="PAUSE" />
+            android:text="PAUSE"
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/stop"
@@ -53,7 +55,8 @@
             android:layout_height="92dp"
             android:layout_weight="1"
             android:onClick="musicstop"
-            android:text="STOP" />
+            android:text="STOP"
+            tools:ignore="ButtonStyle" />
     </LinearLayout>
 
 </LinearLayout>
